@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "name": "Shoes",
+      "display_name": "Shoes",
+      "description": "all the shoes",
+      "id": 1
+    },
+    {
+      "name": "Hats",
+      "display_name": "Hats",
+      "description": "all the hats",
+      "id": 2
+    },
+    {
+      "name": "Shirts",
+      "display_name": "Shirts",
+      "description": "all the shirts",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "category": "Shoes",
+      "name": "Cool Shoes 1",
+      "display_name": "Cool Shoes - Pink",
+      "description": "really cool pink shoes",
+      "id": 2
+    },
+    {
+      "category": "Shoes",
+      "name": "Cool Shoes 2",
+      "display_name": "Cool Shoes - Black",
+      "description": "really cool black shoes",
+      "id": 3
+    },
+    {
+      "category": "Hats",
+      "name": "Cool Hat 1",
+      "display_name": "Cool Hat - Black",
+      "description": "really cool black hat",
+      "id": 4
+    },
+    {
+      "category": "Shirts",
+      "name": "Cool Shirt 1",
+      "display_name": "Cool Shirt - Black",
+      "description": "really cool black shirt",
+      "id": 5
+    }
+  ]
+}
