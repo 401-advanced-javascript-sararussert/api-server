@@ -14,4 +14,8 @@ npm start
 Tests
 Unit Tests: npm run test
 
+To Run:
+npm start
+
 UML
+![UML Lab 06](./assets/umlLab06.jpeg)
