@@ -1,23 +1,24 @@
-#LAB - 06
-API- Server
-Author: Sara Russert
+# LAB - 08 API- Server
+## Author: Sara Russert
 
-Resources and Links
+## Description of Project
+A server for API's stored in a noSQL DB
+
+## Installing API Server
+git clone https://github.com/401-advanced-javascript-sararussert/api-server.git
+
+then NPM I
+
+## Using API Server
+to run server - npm start
+to test - npm test
+
+## Resources and Links
 https://app.swaggerhub.com/apis/SaraRussert/API_Server/0.1
 
+## Acknowledgments
 Worked with kevin, michael, and spencer
 
-Setup
-.env requirements
-
-Running the app
-npm start
-
-Tests
-Unit Tests: npm run test
-
-To Run:
-npm start
-
 UML
-![UML Lab 06](./assets/umlLab07.jpeg)
+![UML Lab 08](./assets/umlLab08.jpeg)
+
