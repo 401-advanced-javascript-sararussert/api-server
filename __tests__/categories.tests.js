@@ -8,7 +8,7 @@ const testServer = supergoose(app);
 describe('tests the products and categories routes and data layer', () => {
   test('should return a new category on POST /user', () => {
 
-    return testServer.post('/categories')
+    return testServer.post('/category')
       .send({ "name": "Tester", "display_name": "test", "description": "testing the put" })
       .then(res => {
         expect(res.status).toStrictEqual(200);
@@ -18,7 +18,7 @@ describe('tests the products and categories routes and data layer', () => {
   });
 
   test('should return the category we just made when I GET from /categories', () => {
-    return testServer.get(`/categories`)
+    return testServer.get(`/category`)
       .then(res => {
         expect(res.status).toStrictEqual(200);
         expect(res.body.length).toStrictEqual(1);

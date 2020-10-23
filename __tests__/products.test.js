@@ -7,7 +7,7 @@ const testServer = supergoose(app);
 
 describe('tests the products and categories routes and data layer', () => {
   test('I can use the post method to add products to the db', () => {
-    return testServer.post('/products')
+    return testServer.post('/product')
       .send({"category": "shoes",
         "name": "Cool Shoes",
         "display_name": "real cool shoes",
